@@ -1,0 +1,14 @@
+{
+  "name": "agy-file-actions",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Google Antigravity 2.0 plugin adding native right-click file actions (reveal in Explorer, open folder, open in VS Code/Cursor/default app with line jump, open terminal here, copy formatted paths).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/file_actions.test.mjs"
+  }
+}
